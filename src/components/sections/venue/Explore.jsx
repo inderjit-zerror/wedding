@@ -13,14 +13,14 @@ const Explore = () => {
     const textRefs = useRef([])
 
     const data = [
-        { id: 1, title: "JEMAA EL-FNAA", image: "/imgs/horizontal_section/img1.webp" },
-        { id: 2, title: "BAHIA PALACE", image: "/imgs/horizontal_section/img2.webp" },
-        { id: 3, title: "KOUTOUBIA MOSQUE", image: "/imgs/horizontal_section/img3.webp" },
-        { id: 4, title: "MAJORELLE GARDEN", image: "/imgs/horizontal_section/img4.webp" },
-        { id: 5, title: "SAADIAN TOMBS", image: "/imgs/horizontal_section/img5.webp" },
-        { id: 6, title: "MEDINA SOUKS", image: "/imgs/horizontal_section/img6.webp" },
-        { id: 7, title: "PALMERAIE", image: "/imgs/horizontal_section/img1.webp" },
-        { id: 8, title: "MENARA GARDENS", image: "/imgs/horizontal_section/img2.webp" }
+        { id: 1, title: "JEMAA EL-FNAA", image: "/imgs/venue/horizontal_section/img1.webp" },
+        { id: 2, title: "BAHIA PALACE", image: "/imgs/venue/horizontal_section/img2.webp" },
+        { id: 3, title: "KOUTOUBIA MOSQUE", image: "/imgs/venue/horizontal_section/img3.webp" },
+        { id: 4, title: "MAJORELLE GARDEN", image: "/imgs/venue/horizontal_section/img4.webp" },
+        { id: 5, title: "SAADIAN TOMBS", image: "/imgs/venue/horizontal_section/img5.webp" },
+        { id: 6, title: "MEDINA SOUKS", image: "/imgs/venue/horizontal_section/img6.webp" },
+        { id: 7, title: "PALMERAIE", image: "/imgs/venue/horizontal_section/img1.webp" },
+        { id: 8, title: "MENARA GARDENS", image: "/imgs/venue/horizontal_section/img2.webp" }
     ]
 
 
@@ -333,7 +333,8 @@ const Explore = () => {
 
                 {/* Part-2 Image -----------------------------------------------*/}
                 <div className='w-[60vw] h-screen overflow-hidden '>
-                    <Image src={`/imgs/horizontal_section/img6.webp`} className='w-full h-full P2IDiv PLA opacity-0 object-cover object-center scale-[1.5]' width={1000} height={1000} alt='Img' />
+            
+                    <Image src={`/imgs/venue/horizontal_section/img6.webp`} className='w-full h-full P2IDiv PLA opacity-0 object-cover object-center scale-[1.5]' width={1000} height={1000} alt='Img' />
                 </div>
 
                 {/* 3Image-Container ------------------------------------------- */}
@@ -343,7 +344,7 @@ const Explore = () => {
                     <div className='w-fit h-fit flex gap-4 img1C '>
                         {/* Img-cont */}
                         <div className='w-[413px] aspect-[4/5]  overflow-hidden '>
-                            <Image src={`/imgs/horizontal_section/img5.webp`} className='w-full img1  h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
+                            <Image src={`/imgs/venue/horizontal_section/img5.webp`} className='w-full img1  h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
                         </div>
                         {/* Text-Cont */}
                         <div className='w-fit full  flex flex-col justify-between Font_Q font-normal text-[#E4BD95]'>
@@ -359,7 +360,7 @@ const Explore = () => {
                     <div className='w-fit h-fit flex img2C '>
                         {/* Img-cont */}
                         <div className='w-[413px] aspect-[4/5]  overflow-hidden'>
-                            <Image src={`/imgs/horizontal_section/img2.webp`} className='w-full img2 h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
+                            <Image src={`/imgs/venue/horizontal_section/img2.webp`} className='w-full img2 h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
                         </div>
                     </div>
 
@@ -376,7 +377,7 @@ const Explore = () => {
                         </div>
                         {/* Img-cont */}
                         <div className='w-[413px] aspect-[4/5]  overflow-hidden'>
-                            <Image src={`/imgs/horizontal_section/img3.webp`} className='w-full img3  h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
+                            <Image src={`/imgs/venue/horizontal_section/img3.webp`} className='w-full img3  h-full object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
                         </div>
                     </div>
 
@@ -450,7 +451,7 @@ const Explore = () => {
                     <div className='w-fit h-fit flex '>
                         {/* Img-cont */}
                         <div className='w-[413px] aspect-[4/5]  overflow-hidden'>
-                            <Image src={`/imgs/horizontal_section/img2.webp`} className='w-full h-full img5 object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
+                            <Image src={`/imgs/venue/horizontal_section/img2.webp`} className='w-full h-full img5 object-cover object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
                         </div>
                     </div>
                 </div>
@@ -476,7 +477,7 @@ const Explore = () => {
                     <div className='w-fit h-fit flex '>
                         {/* Img-cont */}
                         <div className='w-[90%] h-[90vh]  overflow-hidden'>
-                            <Image src={`/imgs/horizontal_section/img1.webp`} className='w-full h-full object-cover img6 object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
+                            <Image src={`/imgs/venue/horizontal_section/img1.webp`} className='w-full h-full object-cover img6 object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
                         </div>
                     </div>
                 </div>
