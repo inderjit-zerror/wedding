@@ -334,7 +334,7 @@ const Explore = () => {
                 {/* Part-2 Image -----------------------------------------------*/}
                 <div className='w-[60vw] h-screen overflow-hidden '>
             
-                    <Image src={`/imgs/venue/horizontal_section/img6.webp`} className='w-full h-full P2IDiv PLA opacity-0 object-cover object-center scale-[1.5]' width={1000} height={1000} alt='Img' />
+                    <Image src={`/imgs/venue/horizontal_section/img6.webp`} className='w-full h-full P2IDiv PLA opacity-0 object-cover object-center scale-[1.1]' width={1000} height={1000} alt='Img' />
                 </div>
 
                 {/* 3Image-Container ------------------------------------------- */}
@@ -433,7 +433,7 @@ const Explore = () => {
                                             </div>
                                         </div>
                                         {/* HoverImage */}
-                                        <div className='hover-img w-[195px] h-[107px] overflow-hidden  pr-4 absolute top-0 left-[65%]  opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out z-20'>
+                                        <div className='hover-img w-[195px] h-[107px] overflow-hidden  pr-4 absolute top-0 left-[80%]  opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out z-20'>
                                             <img src={item.image} alt="Img" className='w-full h-full object-cover object-center' />
                                         </div>
                                     </div>

@@ -18,7 +18,8 @@
 
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-family:Helvetica;
 }
 
 .Font_MLD{

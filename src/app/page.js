@@ -1,17 +1,20 @@
-import Explore from "@/components/sections/venue/Explore";
-import HeroSectionVenue from "@/components/sections/venue/HeroSectionVenue";
-import TravelInfo from "@/components/sections/venue/TravelInfo";
-import VenueGallery from "@/components/sections/venue/VenueGallery";
-import WeddingVenue from "@/components/sections/venue/WeddingVenue";
+import Countdown from "@/components/sections/home/Countdown";
+import Destiny from "@/components/sections/home/Destiny";
+import Hearts from "@/components/sections/home/Hearts";
+import HomeHeroSection from "@/components/sections/home/HomeHeroSection";
+import Line from "@/components/sections/home/Line";
+import WeddingHero from "@/components/sections/home/WeddingHero";
+
 
 export default function Home() {
   return (
     <>
-      <HeroSectionVenue/>
-      <WeddingVenue />
-      <VenueGallery />
-      <TravelInfo />
-      <Explore />
+      <HomeHeroSection />
+      <WeddingHero />
+      <Line/>
+      <Countdown/>
+      <Hearts/>
+      <Destiny />
     </>
   );
 }
