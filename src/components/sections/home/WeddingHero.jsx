@@ -1,8 +1,33 @@
+'use client'
+import React, { useEffect } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useGSAP } from '@gsap/react'
+
+gsap.registerPlugin(ScrollTrigger)
 import Line from "@/components/sections/home/Line";
+
 const WeddingHero = () => {
+
+   useGSAP(() => {
+        gsap.from('.WHD1', {
+            yPercent: 20,
+            opacity: 0,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.WHD1',
+                start: 'top 60%',
+                end: 'top 35%',
+                scrub: true,
+                // markers:true
+            }
+        })
+    }, [])
+
+
   return (
     <section className="min-h-screen flex items-center justify-center bg-white px-4">
-      <div className="text-center max-w-3xl">
+      <div className="text-center max-w-3xl WHD1">
         {/* Bride Name */}
         <h1 className="Font_Q text-[#7A2E2E] text-5xl md:text-6xl tracking-wide uppercase">
           Henna Lakhia

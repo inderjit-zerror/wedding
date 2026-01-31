@@ -13,17 +13,108 @@ const Destiny = () => {
             scrollTrigger: {
                 trigger: '.Destiny_cont',
                 start: 'top top',
-                end: 'bottom bottom',
+                end: 'top -20%',
                 scrub: true,
                 // markers: true
             }
         })
         TLD.to('.innderDestinyCont', {
-            opacity: 1
+            opacity: 1,
+            ease: 'none'
         }, 'b1')
+
+
+        // --------------------------------------
+
+        gsap.to('.SecondInnerContDestiny', {
+            opacity: 1,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.SecondInnerContDestiny',
+                start: 'top 40%',
+                end: 'top 20%',
+                scrub: true,
+                // markers: true
+            }
+        })
 
     }, [])
 
+    useGSAP(() => {
+
+        gsap.from('.DCD1', {
+            yPercent: 20,
+            opacity: 0,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.DCD1',
+                start: 'top 50%',
+                end: 'top 25%',
+                scrub: true,
+                // markers:true
+            }
+        })
+        gsap.from('.DCD2', {
+            yPercent: 20,
+            opacity: 0,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.DCD2',
+                start: 'top 50%',
+                end: 'top 25%',
+                scrub: true,
+                // markers:true
+            }
+        })
+        gsap.from('.DCD3', {
+            yPercent: 20,
+            opacity: 0,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.DCD3',
+                start: 'top 50%',
+                end: 'top 25%',
+                scrub: true,
+                // markers:true
+            }
+        })
+        gsap.from('.DCD4', {
+            yPercent: 20,
+            opacity: 0,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.DCD4',
+                start: 'top 50%',
+                end: 'top 25%',
+                scrub: true,
+                // markers:true
+            }
+        })
+        gsap.from('.DCD5', {
+            yPercent: 20,
+            opacity: 0,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.DCD5',
+                start: 'top 50%',
+                end: 'top 25%',
+                scrub: true,
+                // markers:true
+            }
+        })
+        gsap.from('.DCD6', {
+            yPercent: 20,
+            opacity: 0,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.DCD6',
+                start: 'top 50%',
+                end: 'top 25%',
+                scrub: true,
+                // markers:true
+            }
+        })
+    }, [])
 
     return (
         <div className='w-full h-fit Destiny_cont relative p-10 '>
@@ -31,7 +122,7 @@ const Destiny = () => {
             {/* Bg */}
             <img src={`/imgs/home/imgH2.webp`} className='w-full h-full object-cover fixed top-0 left-0 object-center z-[-1]' alt="BG-IMG" />
 
-            <div className='w-full h-fit bg-white flex flex-col px-[5vw] '>
+            <div className='w-full h-fit bg-white flex flex-col px-[5vw] innderDestinyCont opacity-0 mt-[50vh] '>
                 <div className='w-full h-full px-[10vw] pt-[10vw]'>
                     <img src={`/svgs/Title1Destiny.svg`} className='w-full object-cover' alt="SVG" />
                 </div>
@@ -47,19 +138,24 @@ const Destiny = () => {
 
 
                 {/* IMG */}
-                <div className='w-full h-fit flex mt-[5vw] mb-[50vh] gap-[5vw]'>
+                <div className='w-full h-fit flex mt-[5vw] mb-[50vh] gap-[5vw] relative '>
                     {/* Left */}
-                    <div className='w-2/4'>
+                    <div className='w-2/4 relative z-20 DCD1 '>
                         <div className='w-full h-auto'>
-                            <img src={`/imgs/home/imgH3.webp`} className='w-full aspect-[2/3] object-cover object-center' alt="IMG" />
+                            <img src={`/imgs/home/imgH3.webp`} className='w-full aspect-[2/3] object-cover object-center z-20 ' alt="IMG" />
                         </div>
                     </div>
 
                     {/* Right */}
-                    <div className='w-full'>
+                    <div className='w-full relative z-20 DCD2 '>
                         <div className='w-full h-auto'>
-                            <img src={`/imgs/home/imgH2.webp`} className='w-full aspect-[2/2] object-cover object-center' alt="IMG" />
+                            <img src={`/imgs/home/imgH2.webp`} className='w-full aspect-[2/2] object-cover object-center z-20 ' alt="IMG" />
                         </div>
+                    </div>
+
+                    {/* BackText */}
+                    <div className='w-full h-full absolute bottom-0  left-0 uppercase text-[#75171d38] flex flex-wrap text-wrap z-10 '>
+                        <img src={`/svgs/BGTxtDestiny.svg`} alt="IMG" className='w-full h-full object-cover object-center ' />
                     </div>
                 </div>
 
@@ -68,7 +164,7 @@ const Destiny = () => {
                 {/* ------------------------------------------------------------------------------------------------------------ */}
                 {/* ------------------------------------------------------------------------------------------------------------ */}
 
-                <div className='w-full h-fit flex flex-col mb-[10vh] relative '>
+                <div className='w-full h-fit flex flex-col mb-[10vh] relative SecondInnerContDestiny opacity-0 '>
                     <div className='w-full relative'>
                         <div className='w-1/2 flex mb-[80vh] relative'>
                             <img src={`/svgs/DestinyP2T.svg`} alt="IMG" className='w-full object-cover object-center' />
@@ -77,21 +173,21 @@ const Destiny = () => {
                         {/* 2Img-COMT */}
                         <div className='w-full h-fit flex justify-center  items-center absolute top-[30%] left-0'>
                             {/* left */}
-                            <div className='w-[380px] h-[500px]  rotate-z-[5deg] z-30 relative'>
+                            <div className='w-[380px] h-[500px]  rotate-z-[5deg] z-30 relative DCD3'>
                                 <img src={`/imgs/home/img1Destiny2.webp`} alt="IMG" className='w-full h-full object-cover object-center' />
                                 {/* Random text */}
                                 <img src={`/svgs/randomText.svg`} className='w-[100px] absolute top-[110%] left-1/2 object-cover object-center' alt="IMG" />
                             </div>
 
                             {/* Right */}
-                            <div className='w-[380px] h-[500px] overflow-hidden -rotate-z-[5deg] z-20 translate-y-[-10%]'>
+                            <div className='w-[380px] h-[500px] overflow-hidden -rotate-z-[5deg] z-20 translate-y-[-10%] DCD4'>
                                 <img src={`/imgs/home/img2Destiny2.webp`} alt="IMG" className='w-full h-full object-cover object-center' />
                             </div>
                         </div>
 
                         <div className='w-full fit flex justify-start items-end '>
                             {/* Left */}
-                            <div className='w-1/2 h-full '>
+                            <div className='w-1/2 h-full DCD5 '>
                                 <div className='w-1/2 h-fit'>
                                     <div className='w-[270px] h-[204px] overflow-hidden flex flex-col '>
                                         <img src={`/imgs/home/img3Destiny2.webp`} className=' w-full object-center object-cover' alt="IMG" />
@@ -103,7 +199,7 @@ const Destiny = () => {
                             </div>
 
                             {/* Right */}
-                            <div className='w-1/2 h-fit flex justify-end'>
+                            <div className='w-1/2 h-fit flex justify-end DCD6'>
 
                                 <div className='w-1/2 h-fit flex flex-col'>
                                     <div className="flex gap-8 items-end max-w-5xl w-full">

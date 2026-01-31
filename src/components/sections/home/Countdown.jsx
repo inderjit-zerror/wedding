@@ -1,7 +1,30 @@
 'use client'
 import { useEffect, useState } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useGSAP } from '@gsap/react'
+
+gsap.registerPlugin(ScrollTrigger)
 
 const Countdown = () => {
+
+     useGSAP(() => {
+        gsap.from('.CDD1', {
+            yPercent: 20,
+            opacity: 0,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.CDD1',
+                start: 'top 60%',
+                end: 'top 35%',
+                scrub: true,
+                // markers:true
+            }
+        })
+    }, [])
+
+
+
     // 👉 SET YOUR FINAL DATE HERE
     const targetDate = new Date('2026-03-25T00:00:00')
 
@@ -38,11 +61,11 @@ const Countdown = () => {
 
     return (
         <section className="py-24 w-full h-[90vh] select-none bg-white flex flex-col justify-center items-center text-center">
-            <h3 className=" Font_Q tracking-widest uppercase text-[#7A2E2E] mb-20">
+            <h3 className=" Font_Q tracking-widest uppercase text-[#7A2E2E] mb-20 CDD1">
                 Until the wedding
             </h3>
 
-            <div className="w-full h-fit flex justify-center gap-10 text-[#7A2E2E]">
+            <div className="w-full h-fit flex justify-center gap-10 text-[#7A2E2E] CDD1">
                 {[
                     { label: 'Days', value: timeLeft.days },
                     { label: 'Hours', value: timeLeft.hours },
