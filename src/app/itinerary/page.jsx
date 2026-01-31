@@ -61,7 +61,7 @@ const Itinerary = () => {
                         </div>
 
                         {/* Right Image */}
-                        <div className="w-full h-full bg-amber-700 overflow-hidden ">
+                        <div className="w-full h-full  overflow-hidden ">
                             <img
                                 src={`/imgs/itinerary/Iimg1.webp`}
                                 alt="Spa Experience"
@@ -89,7 +89,7 @@ const Itinerary = () => {
                         </div>
 
                         {/* Right Image */}
-                        <div className="w-full h-full bg-amber-700 overflow-hidden ">
+                        <div className="w-full h-full  overflow-hidden ">
                             <img
                                 src={`/imgs/itinerary/Iimg2.webp`}
                                 alt="Spa Experience"
@@ -118,7 +118,7 @@ const Itinerary = () => {
                         </div>
 
                         {/* Right Image */}
-                        <div className="w-full h-full bg-amber-700 overflow-hidden ">
+                        <div className="w-full h-full  overflow-hidden ">
                             <img
                                 src={`/imgs/itinerary/Iimg3.webp`}
                                 alt="Spa Experience"
@@ -147,7 +147,7 @@ const Itinerary = () => {
                         </div>
 
                         {/* Right Image */}
-                        <div className="w-full h-full bg-amber-700 overflow-hidden ">
+                        <div className="w-full h-full  overflow-hidden ">
                             <img
                                 src={`/imgs/itinerary/Iimg1.webp`}
                                 alt="Spa Experience"
@@ -157,8 +157,6 @@ const Itinerary = () => {
 
                     </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
