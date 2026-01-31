@@ -7,7 +7,7 @@ import { useGSAP } from '@gsap/react'
 gsap.registerPlugin(ScrollTrigger)
 
 
-const Itinerary = () => {
+const itinerary = () => {
 
     useEffect(()=>{
         const TLIT = gsap.timeline({
@@ -163,4 +163,4 @@ const Itinerary = () => {
     )
 }
 
-export default Itinerary
+export default itinerary

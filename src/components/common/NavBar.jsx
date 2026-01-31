@@ -8,7 +8,7 @@ const NavBar = () => {
             {/* Left */}
             <div className='w-1/3 h-full items-center flex justify-between uppercase text-[18px] text-[#5F171D]'>
                <Link href={`/`}><div className='w-fit h-fit flex flex-col group relative  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[#5F171D]'></div> The wedding</div></Link>
-                <Link href={`/Itinerary`}><div className='w-fit h-fit flex flex-col group relative  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[#5F171D]'></div> Itinerary</div></Link>
+                <Link href={`/itinerary`}><div className='w-fit h-fit flex flex-col group relative  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[#5F171D]'></div> Itinerary</div></Link>
                 <Link href={`/venue`}><div className='w-fit h-fit flex flex-col group relative  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[#5F171D]'></div> VENUE</div></Link>
             </div>
 
