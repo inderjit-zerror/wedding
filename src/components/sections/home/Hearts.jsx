@@ -44,7 +44,7 @@ const Hearts = () => {
                 </div>
                 {/* 1 */}
                 <div className=' w-full innderHerartCont2 overflow-hidden  whitespace-nowrap flex-nowrap h-fit text-[8.5vw] leading-[8.5vw] Font_Q flex gap-10 justify-center'>
-                    <h1>love-gre</h1>
+                    <h1>love grew</h1>
                     <h1> quietly,</h1>
                 </div>
                 {/* 1 */}

@@ -11,7 +11,7 @@ const venue = () => {
             <WeddingVenue />
             <VenueGallery />
             <TravelInfo />
-            <Explore />
+            {/* <Explore /> */}
         </>
     )
 }

@@ -13,23 +13,34 @@ const WeddingHome = () => {
   // const WcontainerRef = useRef(null)
   // const WimageRef = useRef(null)
 
-  // useGSAP(() => {
-  //   gsap.to(WimageRef.current, {
-  //     yPercent: 20, // parallax strength
-  //     ease: 'none',
-  //     scrollTrigger: {
-  //       trigger: WcontainerRef.current,
-  //       start: 'top top',
-  //       end: 'bottom top',
-  //       scrub: true,
-  //       // markers:true
-  //     },
-  //   })
-  // }, [])
+  useGSAP(() => {
+    gsap.to(`.NN`, {
+      height:'100vh',
+      ease:'none',
+      scrollTrigger: {
+        trigger:'.nk',
+        start: 'top top',
+        end: 'top -10%',
+        scrub: true,
+        // markers:true
+      },
+    })
+    gsap.to(`.nk`, {
+      padding:0,
+      ease:'none',
+      scrollTrigger: {
+        trigger:'.nk',
+        start: 'top top',
+        end: 'top -10%',
+        scrub: true,
+        // markers:true
+      },
+    })
+  }, [])
 
   return (
-    <div  className="w-full h-screen fixed top-0 left-0 flex justify-end items-end  z-[-1] ">
-      {/* <div   className="w-full h-[85vh] overflow-hidden flex relative "> */}
+    <div  className="w-full  h-screen fixed top-0 left-0 nk flex justify-end items-end px-4 z-[-1] ">
+      <div   className="w-full NN h-[85vh] overflow-hidden flex relative ">
         <img
         
           src={`/imgs/home/imgH2.webp`}
@@ -38,7 +49,7 @@ const WeddingHome = () => {
         />
 
         <img  src={`/svgs/WDText.svg`} alt="IMG" className=" absolute object-cover object-center w-1/3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
-      {/* </div> */}
+      </div>
     </div>
   );
 };

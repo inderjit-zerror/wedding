@@ -19,9 +19,11 @@ export default function FAQ() {
     const toggleFAQ = (index) => {
         setActiveIndex(activeIndex === index ? null : index)
     }
+    
+    
 
     return (
-        <section className="min-h-screen bg-[#6b0f15] text-white flex items-center justify-center">
+        <section id='FAQ' className="min-h-screen bg-[#6b0f15] text-white flex items-center justify-center">
             <div className=" w-[80%] px-6 flex flex-col gap-20 ">
                 <h2 className="text-center Font_Q flex justify-center items-center ">FAQ</h2>
 

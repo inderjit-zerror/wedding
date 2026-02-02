@@ -3,6 +3,7 @@ import React, { useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
+import Link from 'next/link'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -135,7 +136,7 @@ const Itinerary = () => {
             </p>
 
             {/* Description */}
-            <span className="mt-6 w-1/2 text-[18px] leading-[18px] Font_YV tracking-widest text-gray-500">
+            <span className="mt-6 w-1/2 text-[18px] leading-[18px] Font_YV tracking-widest capitalize text-gray-500">
               A SERIES OF SACRED CEREMONIES AND JOYFUL
               CELEBRATIONS AS WE BEGIN OUR NEW JOURNEY
               TOGETHER
@@ -143,12 +144,12 @@ const Itinerary = () => {
 
             {/* Button */}
             <div className="mt-10 flex justify-center">
-              <button className="group flex items-center gap-3 px-8 py-3 border border-gray-700 rounded-full text-xs tracking-widest transition-all duration-300 hover:bg-[#7b1e24] hover:text-white">
+              <Link href={'/venue'} ><button className="group flex items-center gap-3 px-8 py-3 border border-gray-700 rounded-full text-xs tracking-widest transition-all duration-300 hover:bg-[#7b1e24] hover:text-white">
                 VIEW DETAILS
                 <span className="transition-transform duration-300 group-hover:translate-x-1">
                   →
                 </span>
-              </button>
+              </button></Link>
             </div>
           </div>
         </div>
@@ -182,12 +183,12 @@ const Itinerary = () => {
 
             {/* Button */}
             <div className="mt-10 flex justify-center">
-              <button className="group flex items-center gap-3 px-8 py-3 border border-gray-700 rounded-full text-xs tracking-widest transition-all duration-300 hover:bg-[#7b1e24] hover:text-white">
+             <Link href={'/venue'} > <button className="group flex items-center gap-3 px-8 py-3 border border-gray-700 rounded-full text-xs tracking-widest transition-all duration-300 hover:bg-[#7b1e24] hover:text-white">
                 VIEW DETAILS
                 <span className="transition-transform duration-300 group-hover:translate-x-1">
                   →
                 </span>
-              </button>
+              </button></Link>
             </div>
           </div>
         </div>
@@ -237,12 +238,12 @@ const Itinerary = () => {
 
             {/* Button */}
             <div className="mt-10 flex justify-center">
-              <button className="group flex items-center gap-3 px-8 py-3 border border-gray-700 rounded-full text-xs tracking-widest transition-all duration-300 hover:bg-[#7b1e24] hover:text-white">
+              <Link href={'/venue'} ><button className="group flex items-center gap-3 px-8 py-3 border border-gray-700 rounded-full text-xs tracking-widest transition-all duration-300 hover:bg-[#7b1e24] hover:text-white">
                 VIEW DETAILS
                 <span className="transition-transform duration-300 group-hover:translate-x-1">
                   →
                 </span>
-              </button>
+              </button></Link>
             </div>
           </div>
         </div>

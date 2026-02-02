@@ -10,7 +10,7 @@ const CardX = () => {
           <h2 className="Font_Q">Day 1</h2>
           <h5 className="Font_Q text-[40px] mt-6">MEHENDI AND HALDI</h5>
           <h5 className="Font_Q text-[40px]">MEHENDI </h5>
-          <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1">
+          <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 justify-center items-center">
             <span>
               <span className="font-semibold">DATE:</span> 25 March 2006
             </span>
@@ -56,7 +56,7 @@ const CardX = () => {
         {/* right */}
         <div className="w-1/2 h-screen flex flex-col bg-[#75171E] px-12 justify-center items-center">
           <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
-            <h2 className="Font_Q text-[#E4BD95]">OutFit</h2>
+            <h2 className="Font_Q text-[#E4BD95] uppercase">OutFit</h2>
             <p className="Font_YV text-[#E4BD95] mt-4">
               Light-coloured Indian or fusion wear
             </p>
@@ -78,7 +78,7 @@ const CardX = () => {
         {/* Left */}
         <div className="w-1/2 h-screen flex flex-col bg-[#75171E] px-12 justify-center items-center">
           <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
-            <h2 className="Font_Q text-[#E4BD95]">OutFit</h2>
+            <h2 className="Font_Q text-[#E4BD95] uppercase">OutFit</h2>
             <p className="Font_YV text-[#E4BD95] mt-4">
               Light-coloured Indian or fusion wear
             </p>
@@ -96,8 +96,8 @@ const CardX = () => {
         {/* Right */}
         <div className="w-1/2 h-screen bg-white flex relative flex-col text-[#75171E] justify-center items-center">
           <h2 className="Font_Q">Day 2</h2>
-          <h5 className="Font_Q text-[40px] uppercase mt-6">Samgit</h5>
-          <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1">
+          <h5 className="Font_Q text-[40px] uppercase mt-6">SANGEET Night</h5>
+          <div className=" text-[16px] mt-6 flex flex-col justify-center items-center Font_YV gap-1">
             <span>
               <span className="font-semibold">DATE:</span> 25 March 2006
             </span>
@@ -148,7 +148,7 @@ const CardX = () => {
           <h2 className="Font_Q">Day 3</h2>
           <h5 className="Font_Q text-[40px] mt-6">WEDDING &</h5>
           <h5 className="Font_Q text-[40px]">RECEPTION</h5>
-          <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1">
+          <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 justify-center items-center">
             <span>
               <span className="font-semibold">DATE:</span> 25 March 2006
             </span>
@@ -194,7 +194,7 @@ const CardX = () => {
         {/* right */}
         <div className="w-1/2 h-screen flex flex-col bg-[#75171E] px-12 justify-center items-center">
           <div className="w-[80%] h-fit  flex flex-col justify-center items-center">
-            <h2 className="Font_Q text-[#E4BD95]">OutFit</h2>
+            <h2 className="Font_Q text-[#E4BD95] uppercase">OutFit</h2>
             <p className="Font_YV text-[#E4BD95] mt-4">
               Light-coloured Indian or fusion wear
             </p>

@@ -31,8 +31,8 @@ const Destiny = () => {
             ease: 'none',
             scrollTrigger: {
                 trigger: '.SecondInnerContDestiny',
-                start: 'top 50%',
-                end: 'top 20%',
+                start: 'top 70%',
+                end: 'top 40%',
                 scrub: true,
                 // markers: true
             }
@@ -48,8 +48,8 @@ const Destiny = () => {
             ease: 'none',
             scrollTrigger: {
                 trigger: '.DCD1',
-                start: 'top 60%',
-                end: 'top 25%',
+                start: 'top 70%',
+                end: 'top 45%',
                 scrub: true,
                 // markers:true
             }
@@ -60,8 +60,8 @@ const Destiny = () => {
             ease: 'none',
             scrollTrigger: {
                 trigger: '.DCD2',
-                start: 'top 60%',
-                end: 'top 25%',
+                start: 'top 70%',
+                end: 'top 45%',
                 scrub: true,
                 // markers:true
             }
@@ -72,8 +72,8 @@ const Destiny = () => {
             ease: 'none',
             scrollTrigger: {
                 trigger: '.DCD3',
-                start: 'top 60%',
-                end: 'top 25%',
+                start: 'top 70%',
+                end: 'top 45%',
                 scrub: true,
                 // markers:true
             }
@@ -84,8 +84,8 @@ const Destiny = () => {
             ease: 'none',
             scrollTrigger: {
                 trigger: '.DCD4',
-                start: 'top 60%',
-                end: 'top 25%',
+                start: 'top 70%',
+                end: 'top 45%',
                 scrub: true,
                 // markers:true
             }
@@ -96,8 +96,8 @@ const Destiny = () => {
             ease: 'none',
             scrollTrigger: {
                 trigger: '.DCD5',
-                start: 'top 60%',
-                end: 'top 25%',
+                start: 'top 70%',
+                end: 'top 45%',
                 scrub: true,
                 // markers:true
             }
@@ -108,8 +108,8 @@ const Destiny = () => {
             ease: 'none',
             scrollTrigger: {
                 trigger: '.DCD6',
-                start: 'top 60%',
-                end: 'top 25%',
+                start: 'top 70%',
+                end: 'top 45%',
                 scrub: true,
                 // markers:true
             }
