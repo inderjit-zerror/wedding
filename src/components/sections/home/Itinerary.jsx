@@ -16,8 +16,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.ImgTDcont',
-        start:'top 50%',
-        end:'top 25%',
+        start:'top 60%',
+        end:'top 45%',
         scrub:true,
         // markers:true
       }
@@ -28,8 +28,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate1TDIMGANDTEXT',
-        start:'top 50%',
-        end:'top 25%',
+        start:'top 60%',
+        end:'top 45%',
         scrub:true,
         // markers:true
       }
@@ -40,8 +40,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate2TDIMGANDTEXT',
-        start:'top 50%',
-        end:'top 25%',
+        start:'top 60%',
+        end:'top 45%',
         scrub:true,
         // markers:true
       }
@@ -52,8 +52,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate3TDIMGANDTEXT',
-        start:'top 50%',
-        end:'top 25%',
+        start:'top 60%',
+        end:'top 45%',
         scrub:true,
         // markers:true
       }
@@ -64,8 +64,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate4TDIMGANDTEXT',
-        start:'top 50%',
-        end:'top 25%',
+        start:'top 60%',
+        end:'top 45%',
         scrub:true,
         // markers:true
       }
@@ -76,8 +76,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate5TDIMGANDTEXT',
-        start:'top 50%',
-        end:'top 25%',
+        start:'top 60%',
+        end:'top 45%',
         scrub:true,
         // markers:true
       }
@@ -88,8 +88,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate6TDIMGANDTEXT',
-        start:'top 50%',
-        end:'top 25%',
+        start:'top 60%',
+        end:'top 45%',
         scrub:true,
         // markers:true
       }

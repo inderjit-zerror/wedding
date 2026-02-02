@@ -20,6 +20,7 @@
 body {
   position: relative;
   font-family:Helvetica;
+  scroll-behavior: smooth;
 }
 
 .Font_MLD{

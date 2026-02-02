@@ -15,7 +15,7 @@ const Countdown = () => {
             ease: 'none',
             scrollTrigger: {
                 trigger: '.CDD1',
-                start: 'top 60%',
+                start: 'top 50%',
                 end: 'top 35%',
                 scrub: true,
                 // markers:true
@@ -60,7 +60,7 @@ const Countdown = () => {
     }, [])
 
     return (
-        <section className="py-24 w-full h-[90vh] select-none bg-white flex flex-col justify-center items-center text-center">
+        <section className="pb-30 pt-10 w-full h-fit select-none bg-white flex flex-col justify-center items-center text-center">
             <h3 className=" Font_Q tracking-widest uppercase text-[#7A2E2E] mb-20 CDD1">
                 Until the wedding
             </h3>

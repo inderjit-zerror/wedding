@@ -15,19 +15,40 @@ const itinerary = () => {
                 trigger:'.iTCONT',
                 start:'top top',
                 end:'bottom bottom',
+                // markers:true,
                 scrub:true,
             }
         })
+        TLIT.to('.SCDCONT',{
+            top:'-50%',
+            ease:'power2.out'
+        })
         TLIT.to('.cardDiv1',{
-            top:0,
+            top:'15%',
             ease:'none'
-        })
+        },'ap1')
+        TLIT.to('.CONIMGCONT1',{
+            width:'50%',
+            ease:'none'
+        },'ap1')
         TLIT.to('.cardDiv2',{
-            top:0,
+            top:'30%',
             ease:'none'
-        })
+        },'ap2')
+        TLIT.to('.CONIMGCONT2',{
+            width:'50%',
+            ease:'none'
+        },'ap2')
         TLIT.to('.cardDiv3',{
-            top:0,
+            top:'45%',
+            ease:'none'
+        },'ap3')
+        TLIT.to('.CONIMGCONT3',{
+            width:'50%',
+            ease:'none'
+        },'ap3')
+        TLIT.to('.CONIMGCONT4',{
+            width:'50%',
             ease:'none'
         })
     },[])
@@ -35,7 +56,7 @@ const itinerary = () => {
     return (
 
         <div className='w-full h-[300vh] flex flex-col relative iTCONT'>
-            <div className='w-full h-screen bg-white sticky top-0 left-0 flex flex-col'>
+            <div className='w-full h-fit bg-white sticky SCDCONT top-0 left-0 flex flex-col'>
                 {/* Top */}
                 <div className='w-full h-[50vh] flex flex-col px-8 justify-end items-center pb-[2.5vh]'>
                     <span className='mb-[2vh] Font_YV text-[#75171E]'>Make-Up Services</span>
@@ -43,12 +64,12 @@ const itinerary = () => {
                     <p className='Font_YV max-w-[500px] text-justify'>For guests who would like professional make-up and hairstyling during the wedding celebrations, make-up services will be available at the venue</p>
                 </div>
                 {/* Bottom */}
-                <div className='w-full h-[50vh]  relative px-8 py-8'>
+                <div className='w-full h-[100vh]  relative px-8 py-8'>
                     {/* 1-DIV */}
-                    <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center bg-[#75171E] gap-12  py-10 px-10">
+                    <div className="w-full h-[90vh] grid grid-cols-1 md:grid-cols-2 justify-between items-center bg-[#75171E] gap-12  py-10 px-10">
 
                         {/* Left Content */}
-                        <div className="text-[#e6c18b] h-full flex flex-col justify-between">
+                        <div className="text-[#e6c18b] h-full flex flex-col justify-between  ">
                             <div className=" font-serif Font_Q text-[2.5rem] uppercase tracking-widest mb-8">
                                 The Spa Experience
                             </div>
@@ -61,7 +82,7 @@ const itinerary = () => {
                         </div>
 
                         {/* Right Image */}
-                        <div className="w-full h-full  overflow-hidden ">
+                        <div className=" w-full h-full CONIMGCONT1 ml-auto overflow-hidden  ">
                             <img
                                 src={`/imgs/itinerary/Iimg1.webp`}
                                 alt="Spa Experience"
@@ -72,7 +93,7 @@ const itinerary = () => {
                     </div>
 
                     {/* 2-DIV */}
-                    <div className='px-8 py-8 w-full h-[50vh] cardDiv1 absolute top-[100%] left-0'>
+                    <div className='px-8 py-8 w-full h-[88vh] cardDiv1 absolute top-[100%] left-0'>
                         <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center bg-[#F3F4EF] gap-12  py-10 px-10">
 
                         {/* Left Content */}
@@ -89,7 +110,7 @@ const itinerary = () => {
                         </div>
 
                         {/* Right Image */}
-                        <div className="w-full h-full  overflow-hidden ">
+                        <div className="w-full h-full ml-auto CONIMGCONT2  overflow-hidden ">
                             <img
                                 src={`/imgs/itinerary/Iimg2.webp`}
                                 alt="Spa Experience"
@@ -101,7 +122,7 @@ const itinerary = () => {
                     </div>
 
                     {/* 3-DIV */}
-                    <div className='px-8 py-8 w-full h-[50vh] cardDiv2 absolute top-[100%] left-0'>
+                    <div className='px-8 py-8 w-full h-[78vh] cardDiv2 absolute top-[100%] left-0'>
                         <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center bg-[#75171E] gap-12  py-10 px-10">
 
                         {/* Left Content */}
@@ -118,7 +139,7 @@ const itinerary = () => {
                         </div>
 
                         {/* Right Image */}
-                        <div className="w-full h-full  overflow-hidden ">
+                        <div className="w-full h-full ml-auto CONIMGCONT3 overflow-hidden ">
                             <img
                                 src={`/imgs/itinerary/Iimg3.webp`}
                                 alt="Spa Experience"
@@ -130,7 +151,7 @@ const itinerary = () => {
                     </div>
                     
                     {/* 4-DIV */}
-                    <div className='px-8 py-8 w-full h-[50vh] cardDiv3 absolute top-[100%] left-0'>
+                    <div className='px-8 py-8 w-full h-[68vh] cardDiv3 absolute top-[100%] left-0'>
                         <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center bg-[#F3F4EF] gap-12  py-10 px-10">
 
                         {/* Left Content */}
@@ -147,7 +168,7 @@ const itinerary = () => {
                         </div>
 
                         {/* Right Image */}
-                        <div className="w-full h-full  overflow-hidden ">
+                        <div className="w-full h-full ml-auto CONIMGCONT4  overflow-hidden ">
                             <img
                                 src={`/imgs/itinerary/Iimg1.webp`}
                                 alt="Spa Experience"
