@@ -41,7 +41,7 @@ const HomeHeroSection = () => {
 
 
     return (
-        <div className='w-full h-screen overflow-hidden relative HOMEMAIM'>
+        <div className='w-full h-screen overflow-hidden relative '>
             <div ref={containerRefHome} className='w-full h-screen flex overflow-hidden'>
                 <Image
                     ref={imageRefHome}
@@ -53,7 +53,7 @@ const HomeHeroSection = () => {
                 />
             </div>
             <div className='w-full h-screen absolute top-0 left-0 z-20 flex justify-center items-end HOMEMAIM'>
-                <h1 className=' uppercase text-[9vw] Font_Q text-white'>eternally benna</h1>
+                <h1 className=' uppercase text-[9vw] Font_Q text-white HOMEMAIM'>eternally benna</h1>
             </div>
         </div>
     )
