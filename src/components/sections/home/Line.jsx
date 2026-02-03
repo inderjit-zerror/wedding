@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Line = () => {
   useGSAP(() => {
     gsap.to(".LHD1", {
-      height: "40vh",
+      height: "30vh",
       ease: "none",
       scrollTrigger: {
         trigger: ".LHD1",
@@ -22,7 +22,7 @@ const Line = () => {
   }, []);
 
   return (
-    <div className="w-full h-[40vh] flex justify-center  bg-white items-start">
+    <div className="w-full h-[50vh] flex justify-center  bg-white items-start">
       <div className="w-[2px] rounded-full h-0 bg-[#75171E] LHD1"></div>
     </div>
   );

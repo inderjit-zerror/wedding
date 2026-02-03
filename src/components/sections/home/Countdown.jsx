@@ -127,16 +127,7 @@ const Countdown = () => {
                 scrub: true,
             }
         })
-        gsap.to('.LHD1', {
-            opacity: 0,
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.CDD1',
-                start: 'top 70%',
-                end: 'top 50%',
-                scrub: true,
-            }
-        })
+
     }, [])
 
     const targetDate = new Date('2026-03-25T00:00:00')

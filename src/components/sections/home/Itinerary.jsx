@@ -17,8 +17,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.ImgTDcont',
-        start:'top 60%',
-        end:'top 45%',
+        start:'top 90%',
+        end:'top 60%',
         scrub:true,
         // markers:true
       }
@@ -29,8 +29,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate1TDIMGANDTEXT',
-        start:'top 60%',
-        end:'top 45%',
+        start:'top 90%',
+        end:'top 60%',
         scrub:true,
         // markers:true
       }
@@ -41,8 +41,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate2TDIMGANDTEXT',
-        start:'top 60%',
-        end:'top 45%',
+        start:'top 90%',
+        end:'top 60%',
         scrub:true,
         // markers:true
       }
@@ -53,8 +53,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate3TDIMGANDTEXT',
-        start:'top 60%',
-        end:'top 45%',
+        start:'top 90%',
+        end:'top 60%',
         scrub:true,
         // markers:true
       }
@@ -65,8 +65,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate4TDIMGANDTEXT',
-        start:'top 60%',
-        end:'top 45%',
+        start:'top 90%',
+        end:'top 65%',
         scrub:true,
         // markers:true
       }
@@ -77,8 +77,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate5TDIMGANDTEXT',
-        start:'top 60%',
-        end:'top 45%',
+        start:'top 90%',
+        end:'top 60%',
         scrub:true,
         // markers:true
       }
@@ -89,8 +89,8 @@ const Itinerary = () => {
       ease:'none',
       scrollTrigger:{
         trigger:'.animate6TDIMGANDTEXT',
-        start:'top 60%',
-        end:'top 45%',
+        start:'top 90%',
+        end:'top 60%',
         scrub:true,
         // markers:true
       }
@@ -113,9 +113,9 @@ const Itinerary = () => {
       <div className='w-full h-fit flex justify-center items-center my-20'>
 
         {/* left */}
-        <div className='w-1/2 h-fit relative flex justify-center animate1TDIMGANDTEXT'>
+        <div className='w-1/2 h-fit relative flex justify-center '>
           <img src={`/imgs/home/imgH4.webp`} alt="Img" className='w-2/3 object-cover object-center' />
-          <img src={`/svgs/Day01BG.svg`} alt="Img" className='w-2/3 object-cover object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
+          <img src={`/svgs/Day01BG.svg`} alt="Img" className='w-2/3 object-cover animate1TDIMGANDTEXT object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
         </div>
 
         {/* Right */}
@@ -196,9 +196,9 @@ const Itinerary = () => {
 
         {/* Right */}
 
-        <div className='w-1/2 h-fit relative flex animate4TDIMGANDTEXT justify-center'>
+        <div className='w-1/2 h-fit relative flex  justify-center'>
           <img src={`/imgs/home/imgH5.webp`} alt="Img" className='w-2/3 object-cover object-center' />
-          <img src={`/svgs/Day02BG.svg`} alt="Img" className='w-2/3 object-cover object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
+          <img src={`/svgs/Day02BG.svg`} alt="Img" className='w-2/3 animate4TDIMGANDTEXT object-cover object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
         </div>
 
       </div>
@@ -207,9 +207,9 @@ const Itinerary = () => {
       <div className='w-full h-fit flex justify-center items-center mt-20 mb-[30vh]'>
 
         {/* left */}
-        <div className='w-1/2 h-fit relative flex justify-center animate5TDIMGANDTEXT'>
+        <div className='w-1/2 h-fit relative flex justify-center '>
           <img src={`/imgs/home/imgH6.webp`} alt="Img" className='w-2/3 object-cover object-center' />
-          <img src={`/svgs/Day03BG.svg`} alt="Img" className='w-2/3 object-cover object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
+          <img src={`/svgs/Day03BG.svg`} alt="Img" className='w-2/3 animate5TDIMGANDTEXT object-cover object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
         </div>
 
         {/* Right */}

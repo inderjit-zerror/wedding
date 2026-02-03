@@ -36,11 +36,10 @@ const Hearts = () => {
         <div className='w-full h-[250vh] relative heart_cont relative'>
             <div className='w-full h-screen overflow-hidden sticky flex flex-col justify-center top-0 left-0 bg-[#75171E] text-[#E4BD95] uppercase'>
                 {/* 1 */}
-                <div className=' w-full innderHerartCont overflow-hidden h-fit text-[8vw] leading-[8vw] Font_Q flex gap-10 justify-center'>
+                <div className=' w-full innderHerartCont overflow-hidden h-fit text-[8vw] leading-[8vw] Font_Q flex gap-[13vw] justify-center'>
                     <h1>Two</h1>
                     <h1>hearts</h1>
                     <h1> met</h1>
-                    <h1>Love</h1>
                 </div>
                 {/* 1 */}
                 <div className=' w-full innderHerartCont2 overflow-hidden  whitespace-nowrap flex-nowrap h-fit text-[8.5vw] leading-[8.5vw] Font_Q flex gap-10 justify-center'>

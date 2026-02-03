@@ -53,12 +53,22 @@ const itinerary = () => {
         })
     },[])
 
+     // PRE-PRE-ANIMATION
+    useGSAP(()=>{
+        gsap.from('.ITINERARYMAIM',{
+         y:100,
+         duration:0.3,
+         ease:'none'
+        })
+    },[])
+
+
     return (
 
-        <div className='w-full h-[300vh] flex flex-col relative iTCONT'>
-            <div className='w-full h-fit bg-white sticky SCDCONT top-0 left-0 flex flex-col'>
+        <div className='w-full h-[300vh] flex flex-col relative iTCONT '>
+            <div className='w-full h-fit bg-white sticky SCDCONT top-0 left-0 flex flex-col ITINERARYMAIM'>
                 {/* Top */}
-                <div className='w-full h-[50vh] flex flex-col px-8 justify-end items-center pb-[2.5vh]'>
+                <div className='w-full h-[50vh] flex flex-col px-8 justify-end items-center pb-[2.5vh] '>
                     <span className='mb-[2vh] Font_YV text-[#75171E]'>Make-Up Services</span>
                     <h1 className='Font_Q text-[8vw] leading-[8vw] uppercase mb-[3vh] text-[#75171E]'>Wellness Services</h1>
                     <p className='Font_YV max-w-[500px] text-justify'>For guests who would like professional make-up and hairstyling during the wedding celebrations, make-up services will be available at the venue</p>

@@ -18,10 +18,10 @@ const Destiny = () => {
                 // markers: true
             }
         })
-        TLD.to('.innderDestinyCont', {
-            opacity: 1,
-            ease: 'none'
-        }, 'b1')
+        // TLD.to('.innderDestinyCont', {
+        //     // opacity: 1,
+        //     ease: 'none'
+        // }, 'b1')
 
 
         // --------------------------------------
@@ -42,78 +42,114 @@ const Destiny = () => {
 
     useGSAP(() => {
 
-        gsap.from('.DCD1', {
+        // gsap.from('.DCD1', {
+        //     yPercent: 20,
+        //     opacity: 0,
+        //     ease: 'none',
+        //     scrollTrigger: {
+        //         trigger: '.DCD1',
+        //         start: 'top 70%',
+        //         end: 'top 45%',
+        //         scrub: true,
+        //         // markers:true
+        //     }
+        // })
+        gsap.from('.TT1T', {
             yPercent: 20,
             opacity: 0,
             ease: 'none',
             scrollTrigger: {
-                trigger: '.DCD1',
-                start: 'top 70%',
-                end: 'top 45%',
+                trigger: '.innderDestinyCont',
+                start: 'top 80%',
+                end: 'top 50%',
                 scrub: true,
-                // markers:true
+                // markers: true
             }
         })
-        gsap.from('.DCD2', {
+        gsap.from('.TT2T', {
             yPercent: 20,
             opacity: 0,
             ease: 'none',
             scrollTrigger: {
-                trigger: '.DCD2',
-                start: 'top 70%',
-                end: 'top 45%',
+                trigger: '.TT2T',
+                start: 'top 90%',
+                end: 'top 60%',
                 scrub: true,
-                // markers:true
+                // markers: true
             }
         })
-        gsap.from('.DCD3', {
-            yPercent: 20,
+        gsap.from('.TT3T', {
+            yPercent: 5,
             opacity: 0,
             ease: 'none',
             scrollTrigger: {
-                trigger: '.DCD3',
-                start: 'top 70%',
-                end: 'top 45%',
+                trigger: '.TT3T',
+                start: 'top 90%',
+                end: 'top 60%',
                 scrub: true,
-                // markers:true
+                // markers: true
             }
         })
-        gsap.from('.DCD4', {
-            yPercent: 20,
-            opacity: 0,
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.DCD4',
-                start: 'top 70%',
-                end: 'top 45%',
-                scrub: true,
-                // markers:true
-            }
-        })
-        gsap.from('.DCD5', {
-            yPercent: 20,
-            opacity: 0,
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.DCD5',
-                start: 'top 70%',
-                end: 'top 45%',
-                scrub: true,
-                // markers:true
-            }
-        })
-        gsap.from('.DCD6', {
-            yPercent: 20,
-            opacity: 0,
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.DCD6',
-                start: 'top 70%',
-                end: 'top 45%',
-                scrub: true,
-                // markers:true
-            }
-        })
+        // gsap.from('.DCD2', {
+        //     yPercent: 20,
+        //     opacity: 0,
+        //     ease: 'none',
+        //     scrollTrigger: {
+        //         trigger: '.DCD2',
+        //         start: 'top 70%',
+        //         end: 'top 45%',
+        //         scrub: true,
+        //         // markers:true
+        //     }
+        // })
+        // gsap.from('.DCD3', {
+        //     yPercent: 20,
+        //     opacity: 0,
+        //     ease: 'none',
+        //     scrollTrigger: {
+        //         trigger: '.DCD3',
+        //         start: 'top 70%',
+        //         end: 'top 45%',
+        //         scrub: true,
+        //         // markers:true
+        //     }
+        // })
+        // gsap.from('.DCD4', {
+        //     yPercent: 20,
+        //     opacity: 0,
+        //     ease: 'none',
+        //     scrollTrigger: {
+        //         trigger: '.DCD4',
+        //         start: 'top 70%',
+        //         end: 'top 45%',
+        //         scrub: true,
+        //         // markers:true
+        //     }
+        // })
+        // gsap.from('.DCD5', {
+        //     yPercent: 20,
+        //     opacity: 0,
+        //     ease: 'none',
+        //     scrollTrigger: {
+        //         trigger: '.DCD5',
+        //         start: 'top 70%',
+        //         end: 'top 45%',
+        //         scrub: true,
+        //         // markers:true
+        //     }
+        // })
+        // gsap.from('.DCD6', {
+        //     yPercent: 20,
+        //     opacity: 0,
+        //     ease: 'none',
+        //     scrollTrigger: {
+        //         trigger: '.DCD6',
+        //         start: 'top 70%',
+        //         end: 'top 45%',
+        //         scrub: true,
+        //         // markers:true
+        //     }
+        // })
     }, [])
 
     return (
@@ -122,12 +158,12 @@ const Destiny = () => {
             {/* Bg */}
             <img src={`/imgs/home/imgH2.webp`} className='w-full h-full object-cover fixed top-0 left-0 object-center z-[-1]' alt="BG-IMG" />
 
-            <div className='w-full h-fit bg-white flex flex-col px-[5vw] innderDestinyCont opacity-0 mt-[50vh] '>
-                <div className='w-full h-full px-[10vw] pt-[10vw]'>
+            <div className='w-full h-fit bg-white flex flex-col px-[5vw] innderDestinyCont opacity-100 mt-[100vh] '>
+                <div className='w-full h-full px-[10vw] pt-[10vw]  TT1T'>
                     <img src={`/svgs/Title1Destiny.svg`} className='w-full object-cover' alt="SVG" />
                 </div>
 
-                <div className='w-full h-fit flex mt-[5vw]'>
+                <div className='w-full h-fit flex mt-[5vw] TT2T'>
                     <div className='w-1/2 pr-[10vw]'>
                         <p className='Font_YV'> Our story didn’t begin with grand gestures or dramatic moments. It began with tradition, with families coming together, and with a quiet sense of trust. Guided by shared values and mutual respect, we were brought into each other’s lives at just the right time.</p>
                     </div>
@@ -138,7 +174,7 @@ const Destiny = () => {
 
 
                 {/* IMG */}
-                <div className='w-full h-fit flex mt-[5vw] mb-[50vh] gap-[5vw] relative '>
+                <div className='w-full h-fit flex mt-[5vw] mb-[50vh] gap-[5vw] relative TT3T will-change-transform '>
                     {/* Left */}
                     <div className='w-2/4 relative z-20 DCD1 '>
                         <div className='w-full h-auto'>

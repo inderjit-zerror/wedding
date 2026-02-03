@@ -12,6 +12,19 @@ const HomeHeroSection = () => {
     const containerRefHome = useRef(null)
     const imageRefHome = useRef(null)
 
+    // PRE-PRE-ANIMATION
+    useGSAP(()=>{
+        gsap.from('.HOMEMAIM',{
+         y:50,
+         duration:0.3,
+         stagger:{
+            each:'0.2',
+            ease:'none'
+         },
+         ease:'none'
+        })
+    },[])
+
     useGSAP(() => {
         gsap.to(imageRefHome.current, {
             yPercent: 20, // parallax strength
@@ -28,7 +41,7 @@ const HomeHeroSection = () => {
 
 
     return (
-        <div className='w-full h-screen overflow-hidden relative'>
+        <div className='w-full h-screen overflow-hidden relative HOMEMAIM'>
             <div ref={containerRefHome} className='w-full h-screen flex overflow-hidden'>
                 <Image
                     ref={imageRefHome}
@@ -39,7 +52,7 @@ const HomeHeroSection = () => {
                     alt='IMG'
                 />
             </div>
-            <div className='w-full h-screen absolute top-0 left-0 z-20 flex justify-center items-end'>
+            <div className='w-full h-screen absolute top-0 left-0 z-20 flex justify-center items-end HOMEMAIM'>
                 <h1 className=' uppercase text-[9vw] Font_Q text-white'>eternally benna</h1>
             </div>
         </div>

@@ -38,9 +38,22 @@ const WeddingHome = () => {
     })
   }, [])
 
+   // PRE-PRE-ANIMATION
+    useGSAP(()=>{
+        gsap.from('.WEDMAIM',{
+         y:50,
+         duration:0.3,
+         stagger:{
+            each:'0.2',
+            ease:'none'
+         },
+         ease:'none'
+        })
+    },[])
+
   return (
     <div  className="w-full  h-screen fixed top-0 left-0 nk flex justify-end items-end px-4 z-[-1] ">
-      <div   className="w-full NN h-[85vh] overflow-hidden flex relative ">
+      <div   className="w-full NN h-[85vh] overflow-hidden flex relative WEDMAIM ">
         <img
         
           src={`/imgs/home/imgH2.webp`}
