@@ -2,14 +2,14 @@ import React from "react";
 
 const CardX = () => {
   return (
-    <div className="w-full h-fit flex flex-col z-20 mt-[100vh]">
+    <div className="w-full h-fit flex flex-col z-20 mt-[150vh]">
       {/* div-1 */}
       <div className="w-full min-h-screen flex">
         {/* Left */}
         <div className="w-1/2 h-screen flex relative bg-white flex-col text-[#75171E] justify-center items-center">
           <h2 className="Font_Q">Day 1</h2>
-          <h5 className="Font_Q text-[40px] mt-6">MEHENDI AND HALDI</h5>
-          <h5 className="Font_Q text-[40px]">MEHENDI </h5>
+          <h5 className="Font_Q text-[40px] leading-[40px] mt-6">MEHENDI AND HALDI</h5>
+          <h5 className="Font_Q text-[40px] leading-[40px]">MEHENDI </h5>
           <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 justify-center items-center">
             <span>
               <span className="font-semibold">DATE:</span> 25 March 2006
@@ -146,8 +146,8 @@ const CardX = () => {
         {/* Left */}
         <div className="w-1/2 h-screen bg-white flex relative flex-col text-[#75171E] justify-center items-center">
           <h2 className="Font_Q">Day 3</h2>
-          <h5 className="Font_Q text-[40px] mt-6">WEDDING &</h5>
-          <h5 className="Font_Q text-[40px]">RECEPTION</h5>
+          <h5 className="Font_Q text-[40px] leading-[40px]  mt-6">WEDDING &</h5>
+          <h5 className="Font_Q text-[40px] leading-[40px] ">RECEPTION</h5>
           <div className=" text-[16px] mt-6 flex flex-col Font_YV gap-1 justify-center items-center">
             <span>
               <span className="font-semibold">DATE:</span> 25 March 2006

@@ -69,7 +69,7 @@ const itinerary = () => {
             <div className='w-full h-fit bg-white sticky SCDCONT top-0 left-0 flex flex-col ITINERARYMAIM'>
                 {/* Top */}
                 <div className='w-full h-[50vh] flex flex-col px-8 justify-end items-center pb-[2.5vh] '>
-                    <span className='mb-[2vh] Font_YV text-[#75171E]'>Make-Up Services</span>
+                    <span className='mb-[2vh] Font_YV text-[#75171E] font-bold'>Make-Up Services</span>
                     <h1 className='Font_Q text-[8vw] leading-[8vw] uppercase mb-[3vh] text-[#75171E]'>Wellness Services</h1>
                     <p className='Font_YV max-w-[500px] text-justify'>For guests who would like professional make-up and hairstyling during the wedding celebrations, make-up services will be available at the venue</p>
                 </div>
@@ -79,7 +79,7 @@ const itinerary = () => {
                     <div className="w-full h-[90vh] grid grid-cols-1 md:grid-cols-2 justify-between items-center bg-[#75171E] gap-12  py-10 px-10">
 
                         {/* Left Content */}
-                        <div className="text-[#e6c18b] h-full flex flex-col justify-between  ">
+                        <div className="text-[#e6c18b] h-full flex flex-col justify-start ">
                             <div className=" font-serif Font_Q text-[2.5rem] uppercase tracking-widest mb-8">
                                 The Spa Experience
                             </div>
@@ -107,7 +107,7 @@ const itinerary = () => {
                         <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center bg-[#F3F4EF] gap-12  py-10 px-10">
 
                         {/* Left Content */}
-                        <div className="text-[#202020] h-full flex flex-col justify-between">
+                        <div className="text-[#202020] h-full flex flex-col justify-start">
                             <div className=" font-serif Font_Q text-[2.5rem] uppercase tracking-widest mb-8">
                                 The Spa Experience
                             </div>
@@ -136,7 +136,7 @@ const itinerary = () => {
                         <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center bg-[#75171E] gap-12  py-10 px-10">
 
                         {/* Left Content */}
-                        <div className="text-[#e6c18b] h-full flex flex-col justify-between">
+                        <div className="text-[#e6c18b] h-full flex flex-col justify-start">
                             <div className=" font-serif Font_Q text-[2.5rem] uppercase tracking-widest mb-8">
                                 The Spa Experience
                             </div>
@@ -165,7 +165,7 @@ const itinerary = () => {
                         <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center bg-[#F3F4EF] gap-12  py-10 px-10">
 
                         {/* Left Content */}
-                        <div className="text-[#202020] h-full flex flex-col justify-between">
+                        <div className="text-[#202020] h-full flex flex-col justify-start">
                             <div className=" font-serif Font_Q text-[2.5rem] uppercase tracking-widest mb-8">
                                 The Spa Experience
                             </div>

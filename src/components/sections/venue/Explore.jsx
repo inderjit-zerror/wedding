@@ -230,26 +230,26 @@ const Explore = () => {
 
 
         // 6 cont ---------------------------------------------
-        const contA6 = gsap.timeline({
-            scrollTrigger: {
-                trigger: mainContainer.current,
-                start: '750% top',
-                end: '+=100%',
-                scrub: true,
-                // markers: true,
-            },
-        })
-        contA6.fromTo('.contA6',
-            {
-                y: 200,
-                opacity: 0
-            },
-            {
-                y: 0,
-                opacity: 1,
-                ease: 'power3.inOut'
-            }
-        )
+        // const contA6 = gsap.timeline({
+        //     scrollTrigger: {
+        //         trigger: mainContainer.current,
+        //         start: '750% top',
+        //         end: '+=100%',
+        //         scrub: true,
+        //         // markers: true,
+        //     },
+        // })
+        // contA6.fromTo('.contA6',
+        //     {
+        //         y: 200,
+        //         opacity: 0
+        //     },
+        //     {
+        //         y: 0,
+        //         opacity: 1,
+        //         ease: 'power3.inOut'
+        //     }
+        // )
 
         // 7 cont ------------------------------------------------
         const IC6 = gsap.timeline({
@@ -447,7 +447,7 @@ const Explore = () => {
                                             </div>
                                         </div>
                                         {/* HoverImage */}
-                                        <div className='hover-img w-[195px] h-[107px] overflow-hidden  pr-4 absolute top-0 left-[80%]  opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out z-20'>
+                                        <div className='hover-img w-[195px] h-[127px] overflow-hidden  pr-4 absolute top-0 left-[80%]  opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out z-20'>
                                             <img src={item.image} alt="Img" className='w-full h-full object-cover object-center' />
                                         </div>
 
@@ -464,7 +464,7 @@ const Explore = () => {
                 </div>
 
                 {/* 5-Cont */}
-                <div className='w-[50vw] h-screen flex justify-center items-center'>
+                <div className='w-fit ml-[15vw] h-screen flex  justify-center items-center'>
                     {/* 2Cont-Image */}
                     <div className='w-fit h-fit flex  '>
                         {/* Img-cont */}
@@ -475,14 +475,14 @@ const Explore = () => {
                 </div>
 
                 {/* 6-Cont */}
-                <div className='w-[60vw] h-screen  flex justify-center items-center '>
+                <div className='w-[50vw] h-screen  flex justify-center items-center  '>
                     <div className='w-fit max-w-[665px] contA6 h-fit flex flex-col gap-6 justify-center items-center'>
-                        <p className=' uppercase Font_YV text-[#75171E]'>Explore Marrakech</p>
-                        <h4 className=' text-[80px] leading-[80px] Font_Q'>La Mamounia</h4>
-                        <div className='w-full max-w-[460px] flex flex-col justify-center items-center gap-6'>
-                            <div className='text-[#395238] text-[18px] Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
+                        <p className=' uppercase Font_YV text-[#75171E] contA6'>Explore Marrakech</p>
+                        <h4 className=' text-[80px] leading-[80px] Font_Q contA6'>La Mamounia</h4>
+                        <div className='w-full max-w-[460px] flex flex-col contA6 justify-center items-center gap-6'>
+                            <div className='text-[#395238] text-[18px] contA6 Font_YV'>All guests will be staying at the same resort where the wedding events are hosted, making it easy to relax and enjoy every moment without travel in between.</div>
                             {/* BTN */}
-                            <div className='w-[114px] h-[46px] flex justify-center items-center px-[17px] py-[6px] text-[18px] text-[#D9B18D] bg-[#5F171D]'>
+                            <div className='w-[114px] h-[46px] contA6 flex justify-center items-center px-[17px] py-[6px] text-[18px] text-[#D9B18D] bg-[#5F171D]'>
                                 MAP
                             </div>
                         </div>
@@ -490,13 +490,13 @@ const Explore = () => {
                 </div>
 
                 {/* 7-Cont */}
-                <div className='w-[50vw] h-screen ml-[15vw] mr-[15vw]  flex justify-center items-center'>
+                <div className='w-fit h-screen mr-[2vw] flex justify-center items-center'>
                     {/* 2Cont-Image */}
-                    <div className='w-fit h-fit flex '>
+                    <div className='w-[413px] aspect-[4/5] flex overflow-hidden '>
                         {/* Img-cont */}
-                        <div className='w-[90%] h-[90vh]  overflow-hidden img6'>
-                            <Image src={`/imgs/venue/horizontal_section/img1.webp`} className='w-full h-full object-cover  object-center scale-[1.2]' width={1000} height={1000} alt='Img' />
-                        </div>
+                        {/* <div className='w-[90%] h-[90vh]  overflow-hidden img6'> */}
+                            <Image src={`/imgs/venue/horizontal_section/img1.webp`} className='w-full h-full object-cover  object-center' width={1000} height={1000} alt='Img' />
+                        {/* </div> */}
                     </div>
                 </div>
 

@@ -54,9 +54,13 @@ const Destiny = () => {
         //         // markers:true
         //     }
         // })
-        gsap.from('.TT1T', {
-            yPercent: 20,
+        gsap.from('.T2T2T', {
+            yPercent:20,
             opacity: 0,
+            stagger:{
+                each:1,
+                ease:'none'
+            },
             ease: 'none',
             scrollTrigger: {
                 trigger: '.innderDestinyCont',
@@ -90,6 +94,7 @@ const Destiny = () => {
                 // markers: true
             }
         })
+        
         // gsap.from('.DCD2', {
         //     yPercent: 20,
         //     opacity: 0,
@@ -159,8 +164,9 @@ const Destiny = () => {
             <img src={`/imgs/home/imgH2.webp`} className='w-full h-full object-cover fixed top-0 left-0 object-center z-[-1]' alt="BG-IMG" />
 
             <div className='w-full h-fit bg-white flex flex-col px-[5vw] innderDestinyCont opacity-100 mt-[100vh] '>
-                <div className='w-full h-full px-[10vw] pt-[10vw]  TT1T'>
-                    <img src={`/svgs/Title1Destiny.svg`} className='w-full object-cover' alt="SVG" />
+                <div className='w-full h-full px-[10vw] pt-[10vw] flex flex-col gap-[2rem]  '>
+                    <div className='w-full h-fit flex justify-center T2T2T items-center'> <span className='Font_YV uppercase text-[1rem] text-[#5F171D] font-semibold '>Our story</span></div>
+                    <img src={`/svgs/Title1Destiny.svg`} className='w-full T2T2T object-cover' alt="SVG" />
                 </div>
 
                 <div className='w-full h-fit flex mt-[5vw] TT2T'>
@@ -202,8 +208,9 @@ const Destiny = () => {
 
                 <div className='w-full h-fit flex flex-col mb-[10vh] relative SecondInnerContDestiny opacity-0 '>
                     <div className='w-full relative'>
-                        <div className='w-1/2 flex mb-[80vh] relative'>
-                            <img src={`/svgs/DestinyP2T.svg`} alt="IMG" className='w-full object-cover object-center' />
+                        <div className='w-1/2 flex mb-[80vh] relative flex-col'>
+                            <div className='w-full h-fit flex justify-start items-center T2T2T mb-[2rem]'> <span className='Font_YV uppercase text-[1rem] text-[#5F171D] font-semibold '>Our story</span></div>
+                            <img src={`/svgs/DestinyP2T.svg`} alt="IMG" className='w-full T2T2T object-cover object-center' />
                         </div>
 
                         {/* 2Img-COMT */}

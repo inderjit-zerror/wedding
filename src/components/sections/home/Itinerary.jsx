@@ -165,7 +165,7 @@ const Itinerary = () => {
             <p className='Font_YV'>26 March 2026</p>
             <img src={`/svgs/Day02.svg`} alt="img" className='w-1/2 text-[#7b1e24] object-cover object-center my-10' />
             {/* Title */}
-            <h3 className="Font_Q text-[#7b1e24] leading-snug">
+            <h3 className="Font_Q text-[#7b1e24] leading-snug uppercase">
              Sangeet
             </h3>
 

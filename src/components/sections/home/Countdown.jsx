@@ -119,6 +119,10 @@ const Countdown = () => {
         gsap.from('.CDD1', {
             yPercent: 20,
             opacity: 0,
+            stagger:{
+                each:1,
+                ease:'none'
+            },
             ease: 'none',
             scrollTrigger: {
                 trigger: '.CDD1',
@@ -182,7 +186,7 @@ const Countdown = () => {
                 ].map((item, index) => (
                     <div key={index} className="flex items-center">
                         <div className="text-center">
-                            <div className="text-[6vw] leading-[6vw] Font_Q tracking-wide">
+                            <div className="text-[6vw] leading-[6vw] Font_Q font-light tracking-wide">
                                 {item.value}
                             </div>
                             <div className="mt-2 text-[1rem] Font_YV font-semibold tracking-widest uppercase">
