@@ -172,7 +172,7 @@ const Countdown = () => {
     }, [])
 
     return (
-        <section className="pb-[60vh] pt-10 w-full h-[60vh] select-none bg-white flex flex-col justify-center items-center text-center">
+        <section className="pb-[30vh] pt-10 w-full h-[40vh] select-none bg-white flex flex-col justify-center items-center text-center">
             <h3 className="Font_Q tracking-widest uppercase text-[#7A2E2E] mb-20 CDD1">
                 Until the wedding
             </h3>

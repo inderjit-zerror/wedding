@@ -1,16 +1,20 @@
 @import "tailwindcss";
+
 @font-face {
   font-family: Font_MLD;
   src: url('/fonts/MonsieurLaDoulaise-Regular.ttf');
 }
+
 @font-face {
   font-family: Font_Q;
   src: url('/fonts/QUARTZ.ttf');
 }
+
 @font-face {
   font-family: Font_YIV;
   src: url('/fonts/Ysabeau-Italic-VariableFont_wght.ttf');
 }
+
 @font-face {
   font-family: Font_YV;
   src: url('/fonts/Ysabeau-VariableFont_wght.ttf');
@@ -19,33 +23,51 @@
 
 body {
   position: relative;
-  font-family:Helvetica;
+  font-family: Helvetica;
   scroll-behavior: smooth;
 }
 
-.Font_MLD{
-   font-family: Font_MLD;
+.Font_MLD {
+  font-family: Font_MLD;
 }
-.Font_Q{
+
+.Font_Q {
   font-family: Font_Q;
 }
-.Font_YIV{
+
+.Font_YIV {
   font-family: Font_YIV;
 }
-.Font_YV{
+
+.Font_YV {
   font-family: Font_YV;
 }
 
-h2{
+h2 {
   font-size: 3.75rem;
   line-height: 2.76rem;
 }
-h3{
+
+h3 {
   font-size: 2.5rem;
   line-height: 2.6rem;
 }
 
-p{
+p {
   font-size: 20px;
   line-height: 22px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
 }

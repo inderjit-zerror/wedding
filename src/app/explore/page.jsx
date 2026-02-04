@@ -1,9 +1,15 @@
+'use client'
 import Explore from '@/components/sections/venue/Explore'
-import React from 'react'
+import React, { useState } from 'react'
 
 const explore = () => {
+
+  const [isMobile, SetisMobile] = useState(false)
+
   return (
-    <Explore/>
+    <>
+    { isMobile == false? (<> <Explore/></>):(<> <Explore/></>)}
+    </>
   )
 }
 

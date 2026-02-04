@@ -32,8 +32,9 @@ const Explore = () => {
         })
 
         gsap.from('.HiIMG',{
-            xPercent:100,
-            duration:1,
+            xPercent:20,
+            opacity:0,
+            duration:0.8,
             ease:'none'
         })
         
@@ -177,14 +178,14 @@ const Explore = () => {
         //         ease: 'power3.inOut'
         //     }
         // )
-        P4Hover.to('.LineXfull ',{
-            width:'100%',
-            stagger:{
-                each:'0.02',
-                ease:'power1.in'
-            },
-            ease:'power1.in'
-        })
+        // P4Hover.to('.LineXfull ',{
+        //     width:'100%',
+        //     stagger:{
+        //         each:'0.02',
+        //         ease:'power1.in'
+        //     },
+        //     ease:'power1.in'
+        // })
 
         // Marrakech2 ---------------------------------------------
         const Marrakech2 = gsap.timeline({

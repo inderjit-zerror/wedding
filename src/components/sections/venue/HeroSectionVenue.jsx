@@ -26,17 +26,32 @@ const HeroSectionVenue = () => {
     })
   }, [])
 
+   // PRE-PRE-ANIMATION
+    useGSAP(()=>{
+        gsap.from('.WEDMAIMTT',{
+         y:50,
+         duration:0.3,
+         stagger:{
+            each:'0.2',
+            ease:'none'
+         },
+         ease:'none'
+        })
+    },[])
+
 
   return (
-    <div ref={containerRef} className='w-full h-screen flex overflow-hidden'>
+    <div ref={containerRef} className='w-full h-screen flex overflow-hidden WEDMAIMTT relative'>
       <Image
         ref={imageRef}
         src={`/imgs/venue/heroImage.webp`}
-        className='w-full h-full object-cover object-center scale-[1.1]'
+        className='w-full h-full object-cover object-center scale-[1.1] WEDMAIMTT'
         width={1000}
         height={1000}
         alt='IMG'
       />
+
+      <img src={`/name.png`} alt="IMG" className='w-1/3 object-cover object-center absolute bottom-[15%] left-1/2 -translate-x-1/2' />
     </div>
   )
 }

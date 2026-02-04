@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 const TravelInfo = () => {
 
-   const row1 = useRef(null)
+  const row1 = useRef(null)
   const row2 = useRef(null)
   const row3 = useRef(null)
 
@@ -67,7 +67,7 @@ const TravelInfo = () => {
         {/* ROW 1 */}
         <div className="flex whitespace-nowrap uppercase Font_Q" ref={row1}>
           {[...Array(16)].map((_, i) => (
-            <h5 key={i} className="text-[7vw] leading-[7vw]">
+            <h5 key={i} className="text-[7vw] leading-[7vw] max-sm:text-[20vw] max-sm:leading-[20vw]">
               Travel Information
             </h5>
           ))}
@@ -76,7 +76,7 @@ const TravelInfo = () => {
         {/* ROW 2 */}
         <div className="flex whitespace-nowrap uppercase Font_Q -ml-[90vw] " ref={row2}>
           {[...Array(16)].map((_, i) => (
-            <h5 key={i} className="text-[7vw] leading-[7vw]">
+            <h5 key={i} className="text-[7vw] leading-[7vw] max-sm:text-[20vw] max-sm:leading-[20vw]">
               Travel Information
             </h5>
           ))}
@@ -85,7 +85,7 @@ const TravelInfo = () => {
         {/* ROW 3 */}
         <div className="flex whitespace-nowrap uppercase Font_Q" ref={row3}>
           {[...Array(16)].map((_, i) => (
-            <h5 key={i} className="text-[7vw] leading-[7vw]">
+            <h5 key={i} className="text-[7vw] leading-[7vw] max-sm:text-[20vw] max-sm:leading-[20vw]">
               Travel Information
             </h5>
           ))}
@@ -94,22 +94,22 @@ const TravelInfo = () => {
       </div>
 
       {/* Content */}
-      <div className="relative max-w-3xl mx-auto text-center ">
+      <div className="relative max-w-3xl mx-auto text-center flex flex-col justify-center items-center">
 
         <p className=" uppercase mb-6 text-[#E4BD95]">
           Travel Information
         </p>
 
-        <div className="Font_Q  mb-10 flex flex-col gap-4 text-[#E4BD95]">
+        <div className="Font_Q  mb-10 flex flex-col gap-4 max-sm:gap-1 text-[#E4BD95] max-sm:text-white max-sm:uppercase">
           <h2> The Way To</h2>  <h2>Travel</h2>
         </div>
 
-        <div className="space-y-6 ">
+        <div className="space-y-6 max-sm:space-y-4 ">
           <p className="uppercase Font_YV text-[#E4BD95]">
             Nearest Airport :
           </p>
 
-          <p className="  Font_YV text-white">
+          <p className="  Font_YV  text-white">
             Marrakech Menara Airport <br />
             <span className=" opacity-80 Font_YV">(20 Mins)</span>
           </p>
@@ -120,6 +120,9 @@ const TravelInfo = () => {
             follow.
           </p>
         </div>
+         <div className='w-fit h-[46px] select-none mt-5 cursor-pointer flex justify-center items-center px-[17px] py-[6px] text-[16px] text-[white] bg-[#5F171D] hover:bg-[#632127]'>
+            View Location
+          </div>
       </div>
     </section>
   );

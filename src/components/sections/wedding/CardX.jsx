@@ -1,6 +1,51 @@
-import React from "react";
+'use client'
+import Image from 'next/image'
+import React, { useRef } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useGSAP } from '@gsap/react'
+
+gsap.registerPlugin(ScrollTrigger)
 
 const CardX = () => {
+
+
+  useGSAP(()=>{
+    gsap.from('.imgQ1',{
+      y:20,
+      ease:'none',
+      scrollTrigger:{
+        trigger:'.imgQ1',
+        start:'top 80%',
+        end:'top 60%',
+        scrub:true,
+        // markers:true
+      }
+    })
+    gsap.from('.imgQ2',{
+      y:20,
+      ease:'none',
+      scrollTrigger:{
+        trigger:'.imgQ2',
+        start:'top 80%',
+        end:'top 60%',
+        scrub:true,
+        // markers:true
+      }
+    })
+    gsap.from('.imgQ3',{
+      y:20,
+      ease:'none',
+      scrollTrigger:{
+        trigger:'.imgQ3',
+        start:'top 80%',
+        end:'top 60%',
+        scrub:true,
+        // markers:true
+      }
+    })
+  },[])
+
   return (
     <div className="w-full h-fit flex flex-col z-20 mt-[150vh]">
       {/* div-1 */}
@@ -67,7 +112,7 @@ const CardX = () => {
             <img
               src={`/demo.png`}
               alt="Img"
-              className="w-full object-cover object-center mt-4"
+              className="w-full imgQ1 object-cover object-center mt-4"
             />
           </div>
         </div>
@@ -89,7 +134,7 @@ const CardX = () => {
             <img
               src={`/demo.png`}
               alt="Img"
-              className="w-full object-cover object-center mt-4"
+              className="w-full object-cover imgQ2 object-center mt-4"
             />
           </div>
         </div>
@@ -205,7 +250,7 @@ const CardX = () => {
             <img
               src={`/demo.png`}
               alt="Img"
-              className="w-full object-cover object-center mt-4"
+              className="w-full object-cover imgQ3 object-center mt-4"
             />
           </div>
         </div>

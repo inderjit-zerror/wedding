@@ -191,7 +191,7 @@ const Destiny = () => {
                     {/* Right */}
                     <div className='w-full relative z-20 DCD2 '>
                         <div className='w-full h-auto'>
-                            <img src={`/imgs/home/imgH2.webp`} className='w-full aspect-[2/2] object-cover object-center z-20 ' alt="IMG" />
+                            <img src={`/imgs/Same2img.webp`} className='w-full aspect-[2/2] object-cover object-center z-20 ' alt="IMG" />
                         </div>
                     </div>
 
