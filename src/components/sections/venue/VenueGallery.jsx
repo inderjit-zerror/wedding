@@ -122,7 +122,7 @@ const VenueGallery = () => {
                         </div>
                     </div>
                     <div className="w-full h-fit L2ImgCont">
-                        <img src={`/imgs/venue/horizontal_section/img1.webp`} alt="IMG" className="w-full max-sm:object-center max-sm:object-cover max-sm:aspect-4/5 sm:" />
+                        <img src={`/imgs/venue/horizontal_section/img6.webp`} alt="IMG" className="w-full max-sm:object-center max-sm:object-cover max-sm:aspect-4/5 sm:" />
                     </div>
                 </div>
 
@@ -130,7 +130,7 @@ const VenueGallery = () => {
                 {/* 3 */}
                 <div className="w-full flex max-sm:flex-col max-sm:flex-col-reverse h-fit mt-[15vh] max-sm:mt-[5vh] gap-2  L3Cont">
                     <div className="w-1/2 h-fit L3ImgCont max-sm:w-[80%] max-sm:ml-auto">
-                        <img src={`/imgs/venue/horizontal_section/img1.webp`} alt="IMG" className="w-full max-sm:object-cover max-sm:object-center max-sm:aspect-3/3 sm:aspect-2/2" />
+                        <img src={`/imgs/r1.webp`} alt="IMG" className="w-full max-sm:object-cover max-sm:object-center max-sm:aspect-3/3 sm:object-cover sm:object-center sm:aspect-2/2" />
                     </div>
                     <div className="w-1/2 h-auto flex max-sm:w-[80%] max-sm:gap-[2vw] max-sm:items-center max-sm:ml-auto sm:flex-col justify-between text-[#5F171D]">
                         <h2 className="Font_Q">03</h2>
@@ -192,7 +192,7 @@ const VenueGallery = () => {
                         </div>
                     </div>
                     <div className="w-full h-fit R6ImgCont">
-                        <img src={`/imgs/venue/horizontal_section/img1.webp`} alt="IMG" className="w-full aspect-4/2 max-sm:aspect-2/2" />
+                        <img src={`/imgs/r2.webp`} alt="IMG" className="w-full aspect-4/2 max-sm:aspect-2/2" />
                     </div>
                 </div>
 

@@ -50,7 +50,7 @@ const Explore = () => {
 
 
     // Horizontal Scroll Code
-    useEffect(() => {
+    useGSAP(() => {
         if (!mainContainer.current || !scrollContainer.current) return
 
         const totalScrollWidth = scrollContainer.current.scrollWidth - window.innerWidth

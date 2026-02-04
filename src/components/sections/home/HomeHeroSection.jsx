@@ -33,16 +33,12 @@ const HomeHeroSection = () => {
                 ease: 'none'
             },
             ease: 'power1.Out'
-        },'a22')
+        })
         hYL.to(imageRefHome.current, {
             opacity:1,
             duration:2,
-            stagger: {
-                each: '0.2',
-                ease: 'none'
-            },
             ease: 'power1.Out'
-        },'a22')
+        })
     }, [])
 
     useGSAP(() => {
@@ -72,7 +68,7 @@ const HomeHeroSection = () => {
                     alt='IMG'
                 /> */}
 
-                <video ref={imageRefHome} muted autoPlay loop src={`/file.mp4`} className='w-full h-full opacity-0 object-cover object-center scale-[1.1]'></video>
+                <video ref={imageRefHome} muted autoPlay loop src={`/file.mp4`} className='w-full h-screen scale-[1.4] opacity-0 object-cover object-center'></video>
             </div>
             <div className='w-full h-screen absolute top-0 left-0 z-20 flex justify-center items-end HOMEMAIM'>
                 <h1 className=' uppercase text-[9vw] Font_Q -translate-y-4/3 scale-[0.5] opacity-0 text-white HOMEMAIM'>eternally benna</h1>
