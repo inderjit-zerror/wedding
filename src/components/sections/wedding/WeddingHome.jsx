@@ -61,7 +61,7 @@ const WeddingHome = () => {
           alt="Img"
         />
 
-        <img  src={`/svgs/WDText.svg`} alt="IMG" className=" absolute object-cover object-center w-1/3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+        <img  src={`/svgs/WDText.svg`} alt="IMG" className=" absolute object-cover object-center w-1/3 max-sm:w-2/3 top-1/2 max-sm:top-1/5 left-1/2 -translate-x-1/2 -translate-y-1/2" />
       </div>
     </div>
   );

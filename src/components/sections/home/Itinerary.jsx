@@ -105,24 +105,24 @@ const Itinerary = () => {
       <img src={`/svgs/WeddingDesign.svg`} className=' absolute object-cover object-center top-0 right-0 w-1/4 rotate-[90deg]' alt="IMG" />
 
       {/* Titile */}
-      <div className='w-full h-[50vh] flex justify-center items-center mt-[30vh] mb-[20vh] ImgTDcont'>
-        <img src={`/svgs/WeddingTitle.svg`} alt="IMG" className=' h-full object-cover object-center  ' />
+      <div className='w-full h-[50vh]  max-sm:h-fit flex justify-center items-center mt-[30vh] max-sm:mt-[10vh] mb-[20vh] max-sm:mb-[10vh] ImgTDcont'>
+        <img src={`/svgs/WeddingTitle.svg`} alt="IMG" className=' sm:h-full max-sm:w-full object-cover object-center  ' />
       </div>
 
       {/* 1 */}
-      <div className='w-full h-fit flex justify-center items-center my-20'>
+      <div className='w-full h-fit flex max-sm:flex-col max-sm:flex-col-reverse justify-center items-center my-20'>
 
         {/* left */}
-        <div className='w-1/2 h-fit relative flex justify-center '>
-          <img src={`/imgs/home/imgH4.webp`} alt="Img" className='w-2/3 object-cover object-center' />
-          <img src={`/svgs/Day01BG.svg`} alt="Img" className='w-2/3 object-cover animate1TDIMGANDTEXT object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
+        <div className='w-1/2 h-fit relative flex justify-center max-sm:w-full max-sm:mt-10 '>
+          <img src={`/imgs/home/imgH4.webp`} alt="Img" className='w-2/3 max-sm:w-full object-cover object-center' />
+          <img src={`/svgs/Day01BG.svg`} alt="Img" className='w-2/3 max-sm:hidden object-cover animate1TDIMGANDTEXT object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
         </div>
 
         {/* Right */}
-        <div className='w-1/2 h-fit animate2TDIMGANDTEXT'>
+        <div className='w-1/2 h-fit animate2TDIMGANDTEXT max-sm:w-full max-sm:mt-[5vh]'>
           <div className="w-full text-center flex flex-col justify-center items-center px-6 ">
             <p className='Font_YV'>25 March 2026</p>
-            <img src={`/svgs/Day01.svg`} alt="img" className='w-1/2 text-[#7b1e24] object-cover object-center my-10' />
+            <img src={`/svgs/Day01.svg`} alt="img" className='w-1/2 text-[#7b1e24] object-cover object-center my-10 max-sm:my-5' />
             {/* Title */}
             <h3 className="Font_Q text-[#7b1e24] leading-snug">
               MEHENDI AND HALDI
@@ -136,7 +136,7 @@ const Itinerary = () => {
             </p>
 
             {/* Description */}
-            <span className="mt-6 w-1/2 text-[18px] leading-[18px] Font_YV tracking-widest capitalize text-gray-500">
+            <span className="mt-6 w-1/2 max-sm:w-full text-[18px] leading-[18px] Font_YV tracking-widest capitalize text-gray-500">
               A SERIES OF SACRED CEREMONIES AND JOYFUL
               CELEBRATIONS AS WE BEGIN OUR NEW JOURNEY
               TOGETHER
@@ -157,13 +157,13 @@ const Itinerary = () => {
       </div>
 
       {/* 2 */}
-      <div className='w-full h-fit flex justify-center items-center my-20'>
+      <div className='w-full h-fit flex max-sm:flex-col max-sm:w-full justify-center items-center my-20 max-sm:my-10'>
 
         {/* left */}
-        <div className='w-1/2 h-fit animate3TDIMGANDTEXT'>
+        <div className='w-1/2 h-fit animate3TDIMGANDTEXT max-sm:w-full'>
           <div className="w-full text-center flex flex-col justify-center items-center px-6 ">
             <p className='Font_YV'>26 March 2026</p>
-            <img src={`/svgs/Day02.svg`} alt="img" className='w-1/2 text-[#7b1e24] object-cover object-center my-10' />
+            <img src={`/svgs/Day02.svg`} alt="img" className='w-1/2 text-[#7b1e24] object-cover object-center my-10 max-sm:my-5' />
             {/* Title */}
             <h3 className="Font_Q text-[#7b1e24] leading-snug uppercase">
              Sangeet
@@ -175,7 +175,7 @@ const Itinerary = () => {
             </p>
 
             {/* Description */}
-            <span className="mt-6 w-1/2 text-[18px] leading-[18px] Font_YV tracking-widest text-gray-500">
+            <span className="mt-6 w-1/2 max-sm:w-full text-[18px] leading-[18px] Font_YV tracking-widest text-gray-500">
               A SERIES OF SACRED CEREMONIES AND JOYFUL
               CELEBRATIONS AS WE BEGIN OUR NEW JOURNEY
               TOGETHER
@@ -196,27 +196,27 @@ const Itinerary = () => {
 
         {/* Right */}
 
-        <div className='w-1/2 h-fit relative flex  justify-center'>
-          <img src={`/imgs/home/imgH5.webp`} alt="Img" className='w-2/3 object-cover object-center' />
-          <img src={`/svgs/Day02BG.svg`} alt="Img" className='w-2/3 animate4TDIMGANDTEXT object-cover object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
+        <div className='w-1/2 max-sm:w-full h-fit relative flex max-sm:mt-15  justify-center'>
+          <img src={`/imgs/home/imgH5.webp`} alt="Img" className='w-2/3 max-sm:w-full object-cover object-center' />
+          <img src={`/svgs/Day02BG.svg`} alt="Img" className='w-2/3 max-sm:hidden animate4TDIMGANDTEXT object-cover object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
         </div>
 
       </div>
 
        {/* 3 */}
-      <div className='w-full h-fit flex justify-center items-center mt-20 mb-[30vh]'>
+      <div className='w-full h-fit flex max-sm:flex-col max-sm:flex-col-reverse justify-center items-center mt-20 mb-[30vh] max-sm:mb-[10vh]'>
 
         {/* left */}
-        <div className='w-1/2 h-fit relative flex justify-center '>
-          <img src={`/imgs/home/imgH6.webp`} alt="Img" className='w-2/3 object-cover object-center' />
-          <img src={`/svgs/Day03BG.svg`} alt="Img" className='w-2/3 animate5TDIMGANDTEXT object-cover object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
+        <div className='w-1/2 h-fit max-sm:w-full relative flex justify-center max-sm:mt-10 '>
+          <img src={`/imgs/home/imgH6.webp`} alt="Img" className='w-2/3 max-sm:w-full object-cover object-center' />
+          <img src={`/svgs/Day03BG.svg`} alt="Img" className='w-2/3 max-sm:hidden animate5TDIMGANDTEXT object-cover object-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
         </div>
 
         {/* Right */}
-        <div className='w-1/2 h-fit animate6TDIMGANDTEXT'>
-          <div className="w-full text-center flex flex-col justify-center items-center px-6 ">
+        <div className='w-1/2 max-sm:w-full h-fit animate6TDIMGANDTEXT'> 
+          <div className="w-full text-center flex flex-col justify-center items-center px-6 max-sm:mt-10 ">
             <p className='Font_YV'>27 March 2026</p>
-            <img src={`/svgs/Day03.svg`} alt="img" className='w-1/2 text-[#7b1e24] object-cover object-center my-10' />
+            <img src={`/svgs/Day03.svg`} alt="img" className='w-1/2 text-[#7b1e24] object-cover object-center my-10 max-sm:my-5' />
             {/* Title */}
             <h3 className="Font_Q text-[#7b1e24] leading-snug">
               MEHENDI AND HALDI
@@ -230,7 +230,7 @@ const Itinerary = () => {
             </p>
 
             {/* Description */}
-            <span className="mt-6 w-1/2 text-[18px] leading-[18px] Font_YV tracking-widest text-gray-500">
+            <span className="mt-6 w-1/2 text-[18px] max-sm:w-full leading-[18px] Font_YV tracking-widest text-gray-500">
               A SERIES OF SACRED CEREMONIES AND JOYFUL
               CELEBRATIONS AS WE BEGIN OUR NEW JOURNEY
               TOGETHER

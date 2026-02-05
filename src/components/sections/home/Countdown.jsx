@@ -126,7 +126,7 @@ const Countdown = () => {
             ease: 'none',
             scrollTrigger: {
                 trigger: '.CDD1',
-                start: 'top 50%',
+                start: 'top 60%',
                 end: 'top 35%',
                 scrub: true,
             }
@@ -172,12 +172,12 @@ const Countdown = () => {
     }, [])
 
     return (
-        <section className="pb-[30vh] pt-10 w-full h-[40vh] select-none bg-white flex flex-col justify-center items-center text-center">
-            <h3 className="Font_Q tracking-widest uppercase text-[#7A2E2E] mb-20 CDD1">
+        <section className="pb-[30vh] pt-10 max-sm:pt-5 w-full h-[40vh] select-none bg-white flex flex-col justify-center items-center text-center">
+            <h3 className="Font_Q tracking-widest uppercase text-[#7A2E2E] mb-20 max-sm:mb-10 CDD1">
                 Until the wedding
             </h3>
 
-            <div className="w-full h-fit flex justify-center gap-10 text-[#7A2E2E] CDD1">
+            <div className="w-full h-fit flex justify-center gap-10 max-sm:gap-1 text-[#7A2E2E] CDD1">
                 {[
                     { label: 'Days', value: timeLeft.days },
                     { label: 'Hours', value: timeLeft.hours },
@@ -186,16 +186,16 @@ const Countdown = () => {
                 ].map((item, index) => (
                     <div key={index} className="flex items-center">
                         <div className="text-center">
-                            <div className="text-[6vw] leading-[6vw] Font_Q font-light tracking-wide">
+                            <div className="text-[6vw] leading-[6vw] max-sm:text-[2.5rem] max-sm:leading-[2.5rem] Font_Q font-light tracking-wide">
                                 {item.value}
                             </div>
-                            <div className="mt-2 text-[1rem] Font_YV font-semibold tracking-widest uppercase">
+                            <div className="mt-2 text-[1rem] max-sm:text-[0.7rem] max-sm:leading-[0.7rem] Font_YV font-semibold tracking-widest uppercase">
                                 {item.label}
                             </div>
                         </div>
 
                         {index !== 3 && (
-                            <div className="text-[5vw] font-serif ml-8">:</div>
+                            <div className="text-[5vw] max-sm:text-[2rem] font-serif ml-8 max-sm:mx-3">:</div>
                         )}
                     </div>
                 ))}

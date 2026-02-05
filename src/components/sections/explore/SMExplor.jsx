@@ -159,6 +159,21 @@ const SMExplor = () => {
           </div>
         ))}
       </div>
+
+      {/* 7 */}
+      <div className="w-full h-fit flex justify-center items-center mt-[10vh] mb-[5vh]">
+        <img src={`/svgs/TravelService.svg`} alt="IMG" className="w-full object-cover object-center" />
+      </div>
+
+      {/* 8 */}
+      <div className="w-full h-fit flex justify-center items-center px-[20px]">
+        <img src={`/imgs/itinerary/Iimg2.webp`} alt="img" className="w-full object-cover object-center" />
+      </div>
+
+      {/* 9 */}
+      <div className="w-full h-fit flex justify-center items-center px-[20px] mt-[5vh] mb-[10vh]">
+        <img src={`/imgs/r1.webp`} alt="img" className="w-full object-cover object-center" />
+      </div>
     </div>
   );
 };

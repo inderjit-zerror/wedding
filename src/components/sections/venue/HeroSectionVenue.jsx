@@ -51,7 +51,7 @@ const HeroSectionVenue = () => {
         alt='IMG'
       />
 
-      <img src={`/name.png`} alt="IMG" className='w-1/3 object-cover object-center absolute bottom-[15%] left-1/2 -translate-x-1/2' />
+      <img src={`/name.png`} alt="IMG" className='w-1/3 max-sm:w-2/3 object-cover object-center absolute bottom-[15%] left-1/2 -translate-x-1/2' />
     </div>
   )
 }

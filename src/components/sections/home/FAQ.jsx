@@ -23,27 +23,27 @@ export default function FAQ() {
     
 
     return (
-        <section id='FAQ' className="min-h-screen bg-[#6b0f15] text-white flex items-center justify-center">
-            <div className=" w-[80%] px-6 flex flex-col gap-20 ">
+        <section id='FAQ' className="min-h-screen max-sm:min-h-fit bg-[#6b0f15] text-white flex items-center justify-center max-sm:py-[20vw]">
+            <div className=" w-[80%] max-sm:w-full px-6 max-sm:px-[20px]  flex flex-col gap-20 ">
                 <h2 className="text-center Font_Q flex justify-center items-center ">FAQ</h2>
 
-                <div className="space-y-6 ">
+                <div className="space-y-6 w-full   ">
                     {faqs.map((question, index) => (
                         <div
                             key={index}
-                            className="border-t border-white/40 pt-6"
+                            className="border-t border-white/40   pt-6"
                         >
                             <button
                                 onClick={() => toggleFAQ(index)}
-                                className="w-full flex items-center justify-between text-left"
+                                className="w-full flex items-center justify-between text-left "
                             >
-                                <span className="tracking-wide Font_YV text-[1.5rem] md:text-base">
+                                <span className="tracking-wide Font_YV   text-[1.5rem] max-sm:text-[1.1rem] md:text-base">
                                     {question}
                                 </span>
 
                                 {/* ICON */}
                                 <span
-                                    className={`relative w-5 h-5 select-none cursor-pointer transition-transform duration-500 ${activeIndex === index ? 'rotate-45' : 'rotate-0'
+                                    className={`relative w-5 h-5   select-none cursor-pointer transition-transform duration-500 ${activeIndex === index ? 'rotate-45' : 'rotate-0'
                                         }`}
                                 >
                                     <img src={`/svgs/IconPlus.svg`} alt='IMG' className="absolute inset-0 m-auto object-cover object-center w-full h-full " />

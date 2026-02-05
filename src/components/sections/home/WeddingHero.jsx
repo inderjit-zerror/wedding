@@ -30,8 +30,8 @@ const WeddingHero = () => {
 
 
   return (
-    <section className="h-fit flex items-center justify-center bg-white px-4 pt-[20vh] pb-[4vh]">
-      <div className="text-center max-w-3xl ">
+    <section className="h-fit flex items-center justify-center bg-white px-4 pt-[20vh] max-sm:px-[20px] pb-[4vh]">
+      <div className="text-center max-w-3xl  ">
         {/* Bride Name */}
         <h1 className="Font_Q text-[#7A2E2E] text-5xl md:text-6xl tracking-wide uppercase WHD1">
           Henna Lakhia
